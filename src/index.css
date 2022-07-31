@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Roboto:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background-color:  #E5E5E5;
+}
+.container{
+    width: 550px;
+    height: 710px;
+    background-color:#FFFFFF ;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+.header{
+    width: 550px;
+    height: 55px;
+    background-color:#F55A5A ;
+    position: relative;
+}
+.header-component{
+    display: flex;
+    position: absolute;
+    top: 16px;
+    left: 213px;
+    gap: 7px;
+    color: #FFFFFF;
+}
+.header-component span{
+    transform: translateY(4px);
+}
+.card{
+    width: 550px;
+    height: 211px;
+    position: relative;
+}
+.card-components{
+    width: 398;
+    height: 168px;
+    position: absolute;
+    top: 18px;
+    left: 39px;
+    display: flex;
+}
+.card-info{
+    height: 130px;
+    width: 326px;
+   
+    transform: translate(19px, 12px);
+    position: relative;
+}
+.card-head{
+    display: flex;
+}
+.card-head img{
+    width: 7px;
+    height: 9.55px;
+}
+.card-head label,a{
+    font-size: 10.24px;
+    line-height: 12.39px;
+}
+.card-head label{
+    letter-spacing: 1px;
+    margin-left: 4px;
+}
+.card-head a{
+  color: #918E9B;
+}
+.bet{
+    display: flex;
+    gap: 12px;
+}
+.card-info h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    margin-top:2px ;
+}
+.card-info h5{
+    margin-top: -2px;
+    font-size: 10.24px;
+    color: #2B283A;
+}
+.card-info p{
+    font-size:10.24px ;
+    color: #2B283A;
+}
+.card{
+    transform: translateY(27px);
+}
